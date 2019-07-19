@@ -1,5 +1,5 @@
 # FOLG
-Multi user blog 
+blog post web using Nodejs and MongoDB
 
 ### Prerequisites
 * Node: v10.15.1
