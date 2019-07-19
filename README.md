@@ -1,18 +1,20 @@
 # FOLG
-A blog post website using Express and Mongo
+Multi user blog 
 
 ### Prerequisites
-"Node": "^10.15.1"
-"express": "^4.17.1",
-"mongolass": "^4.4.2"
+⋅⋅*Node: v10.15.1
+⋅⋅*express: v4.17.1
+⋅⋅*mongodb: v^4.4.2
  
  ## Installing 
  ```
 npm install
-node index.js
  ```
  
-
+## Run
+ ```
+ node index.js
+ ```
  
  
  
