@@ -5,17 +5,17 @@ const router = express.Router()
 const UserModel = require('../models/users')
 const checkNotLogin = require('../middlewares/check').checkNotLogin
 
-// GET /signin 登录页
+// GET /signin 
 router.get('/', checkNotLogin, function (req, res, next) {
   res.render('signin')
 })
 
-// POST /signin 用户登录
+// POST /signin 
 router.post('/', checkNotLogin, function (req, res, next) {
   const name = req.fields.name
   const password = req.fields.password
 
-  // 校验参数
+  // 
   try {
     if (!name.length) {
       throw new Error('Please Enter user ID')
